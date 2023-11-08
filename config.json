@@ -1,0 +1,10 @@
+{
+    "authorization_url": "https://login.microsoftonline.com/{tenant_id}/oauth2/v2.0/authorize",
+    "graph_api_endpoint": "https://graph.microsoft.com/v1.0/users/{user_id}/messages",
+    "user_id": "",
+    "client_id": "",
+    "client_secret": "",
+    "redirect_uri": "http://localhost",
+    "tenant_id": "",
+    "access_token": ""
+}
