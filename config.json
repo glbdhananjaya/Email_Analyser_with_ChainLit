@@ -1,10 +1,10 @@
 {
     "authorization_url": "https://login.microsoftonline.com/{tenant_id}/oauth2/v2.0/authorize",
     "graph_api_endpoint": "https://graph.microsoft.com/v1.0/users/{user_id}/messages",
-    "user_id": "",
-    "client_id": "",
-    "client_secret": "",
+    "user_id": "75b5c5dc-4b43-42fa-a9ef-574b3ac66275",
+    "client_id": "9ae4b5de-5310-4684-92ec-a92df1f5b7cd",
+    "client_secret": "f-u8Q~gtukbZcbwcO.XGTDYWelnihAiI87MtGaVn",
     "redirect_uri": "http://localhost",
-    "tenant_id": "",
+    "tenant_id": "d5e769b0-fd19-45e4-a4a8-b73545450234",
     "access_token": ""
 }
