@@ -1,10 +1,10 @@
 {
     "authorization_url": "https://login.microsoftonline.com/{tenant_id}/oauth2/v2.0/authorize",
     "graph_api_endpoint": "https://graph.microsoft.com/v1.0/users/{user_id}/messages",
-    "user_id": "75b5c5dc-4b43-42fa-a9ef-574b3ac66275",
-    "client_id": "9ae4b5de-5310-4684-92ec-a92df1f5b7cd",
-    "client_secret": "f-u8Q~gtukbZcbwcO.XGTDYWelnihAiI87MtGaVn",
+    "user_id": "",
+    "client_id": "",
+    "client_secret": "",
     "redirect_uri": "http://localhost",
-    "tenant_id": "d5e769b0-fd19-45e4-a4a8-b73545450234",
-    "access_token": "eyJ0eXAiOiJKV1QiLCJub25jZSI6ImxHUkRxaml2cWRwb2NacG9pVURxSDVXOFRadVYyM3JFTm9DWXJ4Nk5lYk0iLCJhbGciOiJSUzI1NiIsIng1dCI6IjlHbW55RlBraGMzaE91UjIybXZTdmduTG83WSIsImtpZCI6IjlHbW55RlBraGMzaE91UjIybXZTdmduTG83WSJ9.eyJhdWQiOiJodHRwczovL2dyYXBoLm1pY3Jvc29mdC5jb20iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9kNWU3NjliMC1mZDE5LTQ1ZTQtYTRhOC1iNzM1NDU0NTAyMzQvIiwiaWF0IjoxNjk5NDY2NjYyLCJuYmYiOjE2OTk0NjY2NjIsImV4cCI6MTY5OTQ3MDU2MiwiYWlvIjoiRTJWZ1lGaFM0TFA5Nng3T3Q2cXp1eXlTcDltOEJBQT0iLCJhcHBfZGlzcGxheW5hbWUiOiJhaS1ib3QtbWFpbC1yZWFkZXIiLCJhcHBpZCI6IjlhZTRiNWRlLTUzMTAtNDY4NC05MmVjLWE5MmRmMWY1YjdjZCIsImFwcGlkYWNyIjoiMSIsImlkcCI6Imh0dHBzOi8vc3RzLndpbmRvd3MubmV0L2Q1ZTc2OWIwLWZkMTktNDVlNC1hNGE4LWI3MzU0NTQ1MDIzNC8iLCJpZHR5cCI6ImFwcCIsIm9pZCI6IjZjMDdmZTQ4LWMzZmQtNDA2MS1iNjJlLWVlOTU4NDJhYTBhMiIsInJoIjoiMC5BU29Bc0dubjFSbjk1RVdrcUxjMVJVVUNOQU1BQUFBQUFBQUF3QUFBQUFBQUFBQXFBQUEuIiwicm9sZXMiOlsiVXNlci5SZWFkLkFsbCIsIk1haWwuUmVhZCJdLCJzdWIiOiI2YzA3ZmU0OC1jM2ZkLTQwNjEtYjYyZS1lZTk1ODQyYWEwYTIiLCJ0ZW5hbnRfcmVnaW9uX3Njb3BlIjoiQVMiLCJ0aWQiOiJkNWU3NjliMC1mZDE5LTQ1ZTQtYTRhOC1iNzM1NDU0NTAyMzQiLCJ1dGkiOiJIOWp0RU9zY2dFSy03eEY3VmZmbUFBIiwidmVyIjoiMS4wIiwid2lkcyI6WyIwOTk3YTFkMC0wZDFkLTRhY2ItYjQwOC1kNWNhNzMxMjFlOTAiXSwieG1zX3RjZHQiOjE1MDQ3OTUxNTB9.brgBTrxEMTxppUcR3kL9psoLmWBqIw0JVrISyOYcoANk2huIchGYBe3e3iczFEe_pVKPkkBH3gdHevpJBUywbOZgYxlTBEgURBBZ34-9HXkOMKKjvWtPEU3E80lUakEOSJIaXnlFGJFdum-WHbEZBk2eGahYNiRT7mv3gbJ_yjgJxq2rtil1-HszYoQ3HjiJGUDwW93QNJSePCZhNVXE0YeG6ilVY2yi6MPcmrMHwJNHcxyYds5XkOXeAIdPMWyinhbqu80yoL1WXcwgSVerO_zgevz2EoR7Jbo2dDHAWEf7s49j0ADdSDZCDQpY4PlglI2Rmm3SgAdBu-EEolLw5g"
+    "tenant_id": "",
+    "access_token": ""
 }
