@@ -11,7 +11,7 @@ import os
 
 os.environ["OPENAI_API_KEY"] = "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"
 
-async def process_and_continue_chat():
+async def process_and_continue_chat(question=None):
     # subprocess.run(["python", "getemails.py"])
 
     result = subprocess.check_output(["python", "getContents.py"])
@@ -25,8 +25,12 @@ async def process_and_continue_chat():
         "it as 'Not Provided' For 'urgent' emails, specify the immediate action required. For 'important' emails, describe "
         "the significance and the timely response expected. For 'normal' emails, mention any standard follow-up or handling "
         "required. If an email doesn't fit into any of these categories, mark it as 'normal' and suggest the appropriate "
-        "response based on the content. These are the emails list: {email_array}"
+        "response based on the content These are the emails list: {email_array}"
+        f"please provide answer for any question base on the email array"
     )
+
+    if question:
+        prompt += f"\n{question}"
 
     # Use the AI model to continue the chat
     model = ChatOpenAI(streaming=True)
@@ -60,14 +64,5 @@ async def on_message(message: cl.Message):
     if "how is my emails" in message.content.lower():
         await process_and_continue_chat()
     else:
-        runnable = cl.user_session.get("runnable")  # type: Runnable
-
-        msg = cl.Message(content="")
-
-        async for chunk in runnable.astream(
-            {"question": message.content},
-            config=RunnableConfig(callbacks=[cl.LangchainCallbackHandler()]),
-        ):
-            await msg.stream_token(chunk)
-
-        await msg.send()
+        question = message.content
+        await process_and_continue_chat(question)
