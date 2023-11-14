@@ -11,8 +11,8 @@ import os
 
 os.environ["OPENAI_API_KEY"] = "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"
 
-async def process_and_continue_chat():
-    # subprocess.run(["python", "getemails.py"])
+async def process_and_continue_chat(question=None):
+    subprocess.run(["python", "getemails.py"])
 
     result = subprocess.check_output(["python", "getContents.py"])
     emails_json = json.loads(result.decode("utf-8"))
@@ -25,24 +25,37 @@ async def process_and_continue_chat():
         "it as 'Not Provided' For 'urgent' emails, specify the immediate action required. For 'important' emails, describe "
         "the significance and the timely response expected. For 'normal' emails, mention any standard follow-up or handling "
         "required. If an email doesn't fit into any of these categories, mark it as 'normal' and suggest the appropriate "
-        "response based on the content. These are the emails list: {email_array}"
+        "response based on the content. Please assist the user knowledgeably to any question directed regarding the emails, please go through the emails. These are the emails list: {email_array}"
     )
 
-    # Use the AI model to continue the chat
+    if question:
+        prompt += f"\n{question}"
+
+    
     model = ChatOpenAI(streaming=True)
     prompt_template = ChatPromptTemplate.from_messages([("human", prompt)])
     runnable = prompt_template | model | StrOutputParser()
 
     msg = cl.Message(content="")
     
+    suggestions = []
+
     async for chunk in runnable.astream({"email_array": email_array}, config=RunnableConfig(callbacks=[cl.LangchainCallbackHandler()])):
+        if "suggestion" in chunk:  # Check for suggestion output
+            suggestions.append(chunk["suggestion"])
         await msg.stream_token(chunk)
 
     await msg.send()
 
+    
+    if suggestions:
+        print("Suggestions:")
+        for suggestion in suggestions:
+            print(suggestion)
+
 @cl.on_chat_start
 async def on_chat_start():
-    model = ChatOpenAI(streaming=True)
+    model = ChatOpenAI(streaming=True, model="gpt-3.5-turbo")
     prompt = ChatPromptTemplate.from_messages(
         [
             (
@@ -60,14 +73,4 @@ async def on_message(message: cl.Message):
     if "how is my emails" in message.content.lower():
         await process_and_continue_chat()
     else:
-        runnable = cl.user_session.get("runnable")  # type: Runnable
-
-        msg = cl.Message(content="")
-
-        async for chunk in runnable.astream(
-            {"question": message.content},
-            config=RunnableConfig(callbacks=[cl.LangchainCallbackHandler()]),
-        ):
-            await msg.stream_token(chunk)
-
-        await msg.send()
+        await process_and_continue_chat(question=message.content)
