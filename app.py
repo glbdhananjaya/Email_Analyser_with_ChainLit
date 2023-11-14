@@ -9,7 +9,7 @@ import json
 import subprocess
 import os
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 
 async def process_and_continue_chat(question=None):
     subprocess.run(["python", "getemails.py"])
@@ -41,7 +41,7 @@ async def process_and_continue_chat(question=None):
     suggestions = []
 
     async for chunk in runnable.astream({"email_array": email_array}, config=RunnableConfig(callbacks=[cl.LangchainCallbackHandler()])):
-        if "suggestion" in chunk:  # Check for suggestion output
+        if "suggestion" in chunk:
             suggestions.append(chunk["suggestion"])
         await msg.stream_token(chunk)
 
