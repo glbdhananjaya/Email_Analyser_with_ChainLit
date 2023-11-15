@@ -2,261 +2,31 @@
     "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('75b5c5dc-4b43-42fa-a9ef-574b3ac66275')/messages",
     "value": [
         {
-            "@odata.type": "#microsoft.graph.eventMessage",
-            "@odata.etag": "W/\"DQAAABYAAACF3Y3XOG24Q521TfBB7SXNAAJ+o+iG\"",
-            "id": "AAMkADU4OTdhYmMzLTYzZDctNDEyMy04MDJiLWYwMjRkYWU2Y2MxOQBGAAAAAACI2rGVF6-TQ7ynKK26KGxeBwCF3Y3XOG24Q521TfBB7SXNAAAAAAEMAACF3Y3XOG24Q521TfBB7SXNAAKAHdaYAAA=",
-            "createdDateTime": "2023-11-14T03:26:37Z",
-            "lastModifiedDateTime": "2023-11-14T03:26:48Z",
-            "changeKey": "DQAAABYAAACF3Y3XOG24Q521TfBB7SXNAAJ+o+iG",
+            "@odata.etag": "W/\"CQAAABYAAACF3Y3XOG24Q521TfBB7SXNAAJ+pBFY\"",
+            "id": "AAMkADU4OTdhYmMzLTYzZDctNDEyMy04MDJiLWYwMjRkYWU2Y2MxOQBGAAAAAACI2rGVF6-TQ7ynKK26KGxeBwCF3Y3XOG24Q521TfBB7SXNAAAAAAEMAACF3Y3XOG24Q521TfBB7SXNAAKAHdafAAA=",
+            "createdDateTime": "2023-11-15T04:03:57Z",
+            "lastModifiedDateTime": "2023-11-15T04:04:02Z",
+            "changeKey": "CQAAABYAAACF3Y3XOG24Q521TfBB7SXNAAJ+pBFY",
             "categories": [],
-            "receivedDateTime": "2023-11-14T03:26:39Z",
-            "sentDateTime": "2023-11-14T03:26:32Z",
+            "receivedDateTime": "2023-11-15T04:03:58Z",
+            "sentDateTime": "2023-11-15T04:03:50Z",
             "hasAttachments": false,
-            "internetMessageId": "<SI2PR04MB589412DB49BE05B625BF9464ADB2A@SI2PR04MB5894.apcprd04.prod.outlook.com>",
-            "subject": "Canceled: Internal Awareness - Weekly Sync UP",
-            "bodyPreview": "",
-            "importance": "high",
-            "parentFolderId": "AQMkADU4OTdhYmMzLTYzZDctNDEyMy04MDJiLWYwMjRkYWU2Y2MAMTkALgAAA4jasZUXr9NDvKcorboobF4BAIXdjdc4bbhDnbVN8EHtJc0AAAIBDAAAAA==",
-            "conversationId": "AAQkADU4OTdhYmMzLTYzZDctNDEyMy04MDJiLWYwMjRkYWU2Y2MxOQAQAECAeqnipMlAsQprOMtR9EE=",
-            "conversationIndex": "AdlLKLiFQIB6qeKkyUCxCms4y1H0QQ==",
-            "isDeliveryReceiptRequested": null,
-            "isReadReceiptRequested": false,
-            "isRead": true,
-            "isDraft": false,
-            "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkADU4OTdhYmMzLTYzZDctNDEyMy04MDJiLWYwMjRkYWU2Y2MxOQBGAAAAAACI2rGVF6%2FTQ7ynKK26KGxeBwCF3Y3XOG24Q521TfBB7SXNAAAAAAEMAACF3Y3XOG24Q521TfBB7SXNAAKAHdaYAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-            "inferenceClassification": "focused",
-            "meetingMessageType": "meetingCancelled",
-            "type": "singleInstance",
-            "isOutOfDate": false,
-            "isAllDay": false,
-            "isDelegated": false,
-            "body": {
-                "contentType": "text",
-                "content": ""
-            },
-            "sender": {
-                "emailAddress": {
-                    "name": "Nilantha Pushpakumara | BISTEC Global",
-                    "address": "nilantha@bistecglobal.com"
-                }
-            },
-            "from": {
-                "emailAddress": {
-                    "name": "Nilantha Pushpakumara | BISTEC Global",
-                    "address": "nilantha@bistecglobal.com"
-                }
-            },
-            "toRecipients": [
-                {
-                    "emailAddress": {
-                        "name": "Madusha Alawattegama | BISTEC Global",
-                        "address": "madusha@bistecglobal.com"
-                    }
-                },
-                {
-                    "emailAddress": {
-                        "name": "Thulashini Sathurraman | BISTEC Global",
-                        "address": "thulashini@bistecglobal.com"
-                    }
-                },
-                {
-                    "emailAddress": {
-                        "name": "Gishan Nirmasanka | BISTEC Global",
-                        "address": "gishan@bistecglobal.com"
-                    }
-                },
-                {
-                    "emailAddress": {
-                        "name": "Chaminda Dilhan | BISTEC Global",
-                        "address": "chaminda@bistecglobal.com"
-                    }
-                },
-                {
-                    "emailAddress": {
-                        "name": "Bhashitha Dhananjaya | BISTEC Global",
-                        "address": "bhashitha@bistecglobal.com"
-                    }
-                },
-                {
-                    "emailAddress": {
-                        "name": "Arunika Pathirana | BISTEC Global",
-                        "address": "arunika@bistecglobal.com"
-                    }
-                },
-                {
-                    "emailAddress": {
-                        "name": "Anupama Devindi | BISTEC Global",
-                        "address": "anupama@bistecglobal.com"
-                    }
-                },
-                {
-                    "emailAddress": {
-                        "name": "Janak Kalshan | BISTEC Global",
-                        "address": "janak@bistecglobal.com"
-                    }
-                },
-                {
-                    "emailAddress": {
-                        "name": "Malcolm Gunaratnam | BISTEC Global",
-                        "address": "malcolm@bistecglobal.com"
-                    }
-                },
-                {
-                    "emailAddress": {
-                        "name": "Maneesha Wickramasinghe | BISTEC Global",
-                        "address": "maneesha@bistecglobal.com"
-                    }
-                },
-                {
-                    "emailAddress": {
-                        "name": "Aloka Wasundara | BISTEC Global",
-                        "address": "aloka@bistecglobal.com"
-                    }
-                },
-                {
-                    "emailAddress": {
-                        "name": "Sankalpa Abeygunawardhana | BISTEC Global",
-                        "address": "sankalpa@bistecglobal.com"
-                    }
-                },
-                {
-                    "emailAddress": {
-                        "name": "Sandamine Abeykoon | BISTEC Global",
-                        "address": "Sandamine@bistecglobal.com"
-                    }
-                },
-                {
-                    "emailAddress": {
-                        "name": "Nipuni Wickramasinghe | BISTEC Global",
-                        "address": "Nipuni@bistecglobal.com"
-                    }
-                },
-                {
-                    "emailAddress": {
-                        "name": "Nadha Farook | BISTEC Global",
-                        "address": "nadha@bistecglobal.com"
-                    }
-                },
-                {
-                    "emailAddress": {
-                        "name": "Abhinaya Dharmendra | BISTEC Global",
-                        "address": "abhinaya@bistecglobal.com"
-                    }
-                },
-                {
-                    "emailAddress": {
-                        "name": "Roshan Jayawardhana | BISTEC Global",
-                        "address": "Roshan@bistecglobal.com"
-                    }
-                },
-                {
-                    "emailAddress": {
-                        "name": "Roshana Tissaaratchy | BISTEC Global",
-                        "address": "roshanat@bistecglobal.com"
-                    }
-                }
-            ],
-            "ccRecipients": [],
-            "bccRecipients": [],
-            "replyTo": [],
-            "flag": {
-                "flagStatus": "notFlagged"
-            },
-            "startDateTime": {
-                "dateTime": "2023-11-14T11:00:00.0000000",
-                "timeZone": "UTC"
-            },
-            "endDateTime": {
-                "dateTime": "2023-11-14T11:30:00.0000000",
-                "timeZone": "UTC"
-            },
-            "location": {
-                "displayName": "Microsoft Teams Meeting",
-                "locationType": "default",
-                "uniqueIdType": "unknown"
-            },
-            "recurrence": null
-        },
-        {
-            "@odata.etag": "W/\"CQAAABYAAACF3Y3XOG24Q521TfBB7SXNAAJ+o+jS\"",
-            "id": "AAMkADU4OTdhYmMzLTYzZDctNDEyMy04MDJiLWYwMjRkYWU2Y2MxOQBGAAAAAACI2rGVF6-TQ7ynKK26KGxeBwCF3Y3XOG24Q521TfBB7SXNAAAAAAEMAACF3Y3XOG24Q521TfBB7SXNAAKAHdaZAAA=",
-            "createdDateTime": "2023-11-14T03:58:19Z",
-            "lastModifiedDateTime": "2023-11-14T03:58:21Z",
-            "changeKey": "CQAAABYAAACF3Y3XOG24Q521TfBB7SXNAAJ+o+jS",
-            "categories": [],
-            "receivedDateTime": "2023-11-14T03:58:20Z",
-            "sentDateTime": "2023-11-14T03:58:15Z",
-            "hasAttachments": false,
-            "internetMessageId": "<KL1PR0401MB41160B35C4DC41BEADA8B7E4A7B2A@KL1PR0401MB4116.apcprd04.prod.outlook.com>",
-            "subject": "RE: TDM (Team Deathmatch) - Call of Duty 4 MW Champions League 2023",
-            "bodyPreview": "Hello Gaming Warriors! \ud83c\udf1f\r\n\r\n\r\nTime is ticking, and the battlefield awaits! In just FOUR MORE DAYS, on November 17th at 5.00 pm, the epic clash of Team Deathmatch (TDM) will commence. \u23f3\ud83d\udd2b\r\n\r\nAre you ready to represent Team Lannister, Targaryen, or Stark? ",
-            "importance": "normal",
-            "parentFolderId": "AQMkADU4OTdhYmMzLTYzZDctNDEyMy04MDJiLWYwMjRkYWU2Y2MAMTkALgAAA4jasZUXr9NDvKcorboobF4BAIXdjdc4bbhDnbVN8EHtJc0AAAIBDAAAAA==",
-            "conversationId": "AAQkADU4OTdhYmMzLTYzZDctNDEyMy04MDJiLWYwMjRkYWU2Y2MxOQAQABizofiGmkNYoxvZc_vaoHc=",
-            "conversationIndex": "AdoWGTZJGLOh+IaaQ1ijG9lz69qgdwAlMutQ",
-            "isDeliveryReceiptRequested": null,
-            "isReadReceiptRequested": false,
-            "isRead": false,
-            "isDraft": false,
-            "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkADU4OTdhYmMzLTYzZDctNDEyMy04MDJiLWYwMjRkYWU2Y2MxOQBGAAAAAACI2rGVF6%2FTQ7ynKK26KGxeBwCF3Y3XOG24Q521TfBB7SXNAAAAAAEMAACF3Y3XOG24Q521TfBB7SXNAAKAHdaZAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-            "inferenceClassification": "focused",
-            "body": {
-                "contentType": "html",
-                "content": "<html><head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\"><style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\n@font-face\r\n\t{font-family:\"Segoe UI Emoji\"}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tfont-size:11.0pt;\r\n\tfont-family:\"Calibri\",sans-serif}\r\nspan.EmailStyle19\r\n\t{font-family:\"Calibri\",sans-serif;\r\n\tcolor:windowtext}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style></head><body lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\" style=\"word-wrap:break-word\"><div class=\"WordSection1\"><p class=\"MsoNormal\">Hello Gaming Warriors! <span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif\">&#127775;</span></p><p class=\"MsoNormal\"><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif\">&nbsp;</span></p><p class=\"MsoNormal\"><span style=\"\"><img width=\"338\" height=\"392\" id=\"Picture_x0020_5\" src=\"cid:image001.png@01DA16DC.97346320\" style=\"width:3.525in; height:4.0833in\"></span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif\"></span></p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\">Time is ticking, and the battlefield awaits! In just FOUR MORE DAYS, on November 17th at 5.00 pm, the epic clash of Team Deathmatch (TDM) will commence. <span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif\">\u23f3&#128299;</span></p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\">Are you ready to represent Team Lannister, Targaryen, or Stark? The Targaryen\u2019s may be dominating, but it's your chance to rise, challenge their supremacy, and carve your house's name in the annals of glory! <span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif\">&#127984;&#128165;</span></p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\">Every point count, and with a bonus point for each participant, there's no reason to miss out on the action!</p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\">Be a part of the legacy, seize the glory, and let your mark echo through the battlefield. Winter is coming, and victory awaits the true champions. <span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif\">&#127942;&#128640;</span></p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\">Prepare your gear, sharpen your skills, and get ready for an unforgettable gaming experience!</p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\">May your aim be true and your victory legendary!</p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\">Best, BISTEC Club <span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif\">&#127942;&#127918;</span></p><p class=\"MsoNormal\">&nbsp;</p><div><div style=\"border:none; border-top:solid #E1E1E1 1.0pt; padding:3.0pt 0in 0in 0in\"><p class=\"MsoNormal\"><b><span style=\"\">From:</span></b><span style=\"\"> The Bistec Club <br><b>Sent:</b> Monday, November 13, 2023 3:38 PM<br><b>To:</b> #All Hearts | BISTEC Global &lt;AllHearts@bistecglobal.com&gt;<br><b>Subject:</b> TDM (Team Deathmatch) - Call of Duty 4 MW Champions League 2023</span></p></div></div><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\">Hey Gaming Enthusiasts! <span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif\">&#127775;&#128377;\ufe0f</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif\"></span></p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\">The countdown has begun, and in just five days, the battlefield will ignite with the fiery clash of TDM (Team Deathmatch) on November 17th! <span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif\">\u23f3&#128299;</span><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif\"></span></p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\"><span style=\"\"><img width=\"338\" height=\"392\" id=\"Picture_x0020_3\" src=\"cid:image001.png@01DA16DC.97346320\" style=\"width:3.525in; height:4.0833in\"></span></p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\">The TDM (Team Deathmatch) showdown is just around the corner, and we need YOUR skills to conquer the battlefield. <span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif\">&#128481;\ufe0f&#128737;\ufe0f</span> Join us on November 17th at 5.00 pm as we kick off this season's first epic encounter.</p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\">Team Lannister\u2019s, Targaryen\u2019s and Starks are you all ready to face the battle? <span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif\">&#128513;</span></p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\">The Targaryen\u2019s are dominating, but the question is, can your house rise and challenge their supremacy? <span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif\">&#127984;&#128165;</span> Every point matter, and with a bonus point for each participant, there's no excuse not to dive into the action!</p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\">Be part of the legacy, be part of the glory. Winter is coming, and the battlefield awaits your mark. <span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif\">&#127942;&#128640;</span></p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\">May your aim be true and your victory legendary!</p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\">Best,</p><p class=\"MsoNormal\">BISTEC Club <span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif\">&#127942;&#127918;</span></p><p class=\"MsoNormal\">&nbsp;</p></div></body></html>"
-            },
-            "sender": {
-                "emailAddress": {
-                    "name": "The Bistec Club",
-                    "address": "club@bistecglobal.com"
-                }
-            },
-            "from": {
-                "emailAddress": {
-                    "name": "The Bistec Club",
-                    "address": "club@bistecglobal.com"
-                }
-            },
-            "toRecipients": [
-                {
-                    "emailAddress": {
-                        "name": "#All Hearts | BISTEC Global",
-                        "address": "AllHearts@bistecglobal.com"
-                    }
-                }
-            ],
-            "ccRecipients": [],
-            "bccRecipients": [],
-            "replyTo": [],
-            "flag": {
-                "flagStatus": "notFlagged"
-            }
-        },
-        {
-            "@odata.etag": "W/\"CQAAABYAAACF3Y3XOG24Q521TfBB7SXNAAJ+o+lI\"",
-            "id": "AAMkADU4OTdhYmMzLTYzZDctNDEyMy04MDJiLWYwMjRkYWU2Y2MxOQBGAAAAAACI2rGVF6-TQ7ynKK26KGxeBwCF3Y3XOG24Q521TfBB7SXNAAAAAAEMAACF3Y3XOG24Q521TfBB7SXNAAKAHdaaAAA=",
-            "createdDateTime": "2023-11-14T05:20:00Z",
-            "lastModifiedDateTime": "2023-11-14T05:20:03Z",
-            "changeKey": "CQAAABYAAACF3Y3XOG24Q521TfBB7SXNAAJ+o+lI",
-            "categories": [],
-            "receivedDateTime": "2023-11-14T05:20:01Z",
-            "sentDateTime": "2023-11-14T05:19:53Z",
-            "hasAttachments": false,
-            "internetMessageId": "<SEZPR04MB580461A2DA0765B131C239B6ADB2A@SEZPR04MB5804.apcprd04.prod.outlook.com>",
+            "internetMessageId": "<SEZPR04MB5804F94F2B931A338005B2DCADB1A@SEZPR04MB5804.apcprd04.prod.outlook.com>",
             "subject": "Hearts Talk \u2764 | Cybersecurity & Risk Mitigation",
-            "bodyPreview": "Hello hearts, \u2764\r\n\r\nHope you are having a great day. \ud83d\ude0a\r\n\r\nONE MORE day to go for the Hearts Talk by Chandima Ranaweera!!! \ud83e\udd29\r\n\r\nDid you know that the projected global cost of cybercrime is set to skyrocket to an astonishing $8 trillion USD in 2023? It's n",
+            "bodyPreview": "Hello hearts, \u2764\r\n\r\nWho\u2019s ready for today\u2019s Hearts Talk? \ud83d\ude0a\r\n\r\nDid you know that the projected global cost of cybercrime is set to skyrocket to an astonishing $8 trillion USD in 2023? It's not just a number; it's a call to action.\ud83d\ude25\r\n\r\nHearts Academy invit",
             "importance": "normal",
             "parentFolderId": "AQMkADU4OTdhYmMzLTYzZDctNDEyMy04MDJiLWYwMjRkYWU2Y2MAMTkALgAAA4jasZUXr9NDvKcorboobF4BAIXdjdc4bbhDnbVN8EHtJc0AAAIBDAAAAA==",
-            "conversationId": "AAQkADU4OTdhYmMzLTYzZDctNDEyMy04MDJiLWYwMjRkYWU2Y2MxOQAQAB6t0ftbOUE8ssYfD2eGtuc=",
-            "conversationIndex": "AdoWt13oHq3R+1s5QTyyxh8PZ4a25w==",
+            "conversationId": "AAQkADU4OTdhYmMzLTYzZDctNDEyMy04MDJiLWYwMjRkYWU2Y2MxOQAQANjbInxMrkjJoNMqOUzcbVo=",
+            "conversationIndex": "AdoXeGcy2NsifEyuSMmg0yo5TNxtWg==",
             "isDeliveryReceiptRequested": null,
             "isReadReceiptRequested": false,
             "isRead": false,
             "isDraft": false,
-            "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkADU4OTdhYmMzLTYzZDctNDEyMy04MDJiLWYwMjRkYWU2Y2MxOQBGAAAAAACI2rGVF6%2FTQ7ynKK26KGxeBwCF3Y3XOG24Q521TfBB7SXNAAAAAAEMAACF3Y3XOG24Q521TfBB7SXNAAKAHdaaAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+            "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkADU4OTdhYmMzLTYzZDctNDEyMy04MDJiLWYwMjRkYWU2Y2MxOQBGAAAAAACI2rGVF6%2FTQ7ynKK26KGxeBwCF3Y3XOG24Q521TfBB7SXNAAAAAAEMAACF3Y3XOG24Q521TfBB7SXNAAKAHdafAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
             "inferenceClassification": "focused",
             "body": {
                 "contentType": "html",
-                "content": "<html><head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\"><style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\n@font-face\r\n\t{font-family:\"Segoe UI Emoji\"}\r\n@font-face\r\n\t{font-family:\"Segoe UI\"}\r\n@font-face\r\n\t{font-family:\"Segoe UI Semibold\"}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tfont-size:11.0pt;\r\n\tfont-family:\"Calibri\",sans-serif}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle22\r\n\t{font-family:\"Calibri\",sans-serif;\r\n\tcolor:windowtext}\r\nspan.wdyuqq\r\n\t{}\r\nspan.ui-provider\r\n\t{}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style></head><body lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\" style=\"word-wrap:break-word\"><div class=\"WordSection1\"><p class=\"MsoNormal\">Hello hearts, <span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif\">\u2764</span><span style=\"\"></span></p><p class=\"MsoNormal\"><span style=\"\">&nbsp;</span></p><p class=\"MsoNormal\">Hope you are having a great day. <span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif\">&#128522;</span></p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\"><b>ONE MORE</b> day to go for the Hearts Talk by Chandima Ranaweera<span class=\"wdyuqq\"><span style=\"color:#023047\">!!! </span></span><span class=\"wdyuqq\"><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif; color:#023047\">&#129321;</span></span><span class=\"ui-provider\"><span style=\"color:#023047\"></span></span></p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\">Did you know that the projected global cost of cybercrime is set to skyrocket to an astonishing $8 trillion USD in 2023? It's not just a number; it's a call to action.<span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif\">&#128549;</span></p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\">Hearts Academy invites you to an enlightening discussion on Cybersecurity &amp; Risk Mitigation, featuring the renowned Architect, Chandima Ranaweera. </p><p class=\"MsoNormal\">Don't wait until you become a target\u2014join us to unravel essential insights on fortifying your security and thwarting potential breaches.</p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\"><img width=\"445\" height=\"659\" id=\"Picture_x0020_3\" src=\"cid:image001.png@01DA16E5.CA216900\" style=\"width:4.6354in; height:6.8645in\"></p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\"><b>Event Details</b>:</p><p class=\"MsoNormal\"><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif\">&#128274;</span> Speaker: Chandima Ranaweera, Architect</p><p class=\"MsoNormal\"><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif\">&#128467;</span> Date: November 15<sup>th</sup> </p><p class=\"MsoNormal\"><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif\">&#128340;</span> Time: 5:00 PM Via Microsoft Teams</p><p class=\"MsoNormal\"><b><span style=\"font-size:10.5pt; font-family:&quot;Segoe UI&quot;,sans-serif; color:#252424\">&nbsp;</span></b></p><p class=\"MsoNormal\"><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif; color:#252424\"><a href=\"https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWZjYzUxOGQtMDc3Zi00MTQ4LWE2ZDktYTZkMzViMTljZGE5%40thread.v2/0?context=%7b%22Tid%22%3a%22d5e769b0-fd19-45e4-a4a8-b73545450234%22%2c%22Oid%22%3a%22e97e5c36-00f3-4763-b104-f3b0bc21c6b8%22%7d\" target=\"_blank\"><span style=\"font-size:10.5pt; font-family:&quot;Segoe UI Semibold&quot;,sans-serif; color:#6264A7\">Click here to join the meeting</span></a></span></p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\">Your digital well-being is our priority. Secure your virtual seat now by confirming your participation.</p><p>Thank you for considering our invitation. We're looking forward to your participation.<span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif\">&#128522;</span></p><p><br>Best regards,<br><img border=\"0\" width=\"195\" height=\"46\" id=\"Picture_x0020_5\" src=\"cid:image002.png@01DA16E5.CA216900\" alt=\"A close up of a logo\n\nDescription automatically generated\" style=\"width:2.0312in; height:.4791in\"></p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\">&nbsp;</p><div><p class=\"MsoNormal\" style=\"background:white\"><span style=\"font-size:12.0pt; color:black\">&nbsp;</span></p></div></div></body></html>"
+                "content": "<html><head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\"><style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\n@font-face\r\n\t{font-family:\"Segoe UI Emoji\"}\r\n@font-face\r\n\t{font-family:\"Segoe UI\"}\r\n@font-face\r\n\t{font-family:\"Segoe UI Semibold\"}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tfont-size:11.0pt;\r\n\tfont-family:\"Calibri\",sans-serif}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle22\r\n\t{font-family:\"Calibri\",sans-serif;\r\n\tcolor:windowtext}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style></head><body lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\" style=\"word-wrap:break-word\"><div class=\"WordSection1\"><p class=\"MsoNormal\">Hello hearts, <span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif\">\u2764</span><span style=\"\"></span></p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\">Who\u2019s ready for today\u2019s Hearts Talk? <span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif\">\ud83d\ude0a</span></p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\">Did you know that the projected global cost of cybercrime is set to skyrocket to an astonishing $8 trillion USD in 2023? It's not just a number; it's a call to action.<span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif\">\ud83d\ude25</span></p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\">Hearts Academy invites you to an enlightening discussion on Cybersecurity &amp; Risk Mitigation, featuring the renowned Architect, Chandima Ranaweera. </p><p class=\"MsoNormal\">Don't wait until you become a target\u2014join us to unravel essential insights on fortifying your security and thwarting potential breaches.</p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\"><img width=\"445\" height=\"659\" id=\"Picture_x0020_3\" src=\"cid:image001.png@01DA17A6.D5A85600\" style=\"width:4.6354in; height:6.8645in\"></p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\"><b>Event Details</b>:</p><p class=\"MsoNormal\"><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif\">\ud83d\udd12</span> Speaker: Chandima Ranaweera, Architect</p><p class=\"MsoNormal\"><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif\">\ud83d\uddd3</span> Date: November 15<sup>th</sup> </p><p class=\"MsoNormal\"><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif\">\ud83d\udd54</span> Time: 5:00 PM Via Microsoft Teams</p><p class=\"MsoNormal\"><b><span style=\"font-size:10.5pt; font-family:&quot;Segoe UI&quot;,sans-serif; color:#252424\">&nbsp;</span></b></p><p class=\"MsoNormal\"><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif; color:#252424\"><a href=\"https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWZjYzUxOGQtMDc3Zi00MTQ4LWE2ZDktYTZkMzViMTljZGE5%40thread.v2/0?context=%7b%22Tid%22%3a%22d5e769b0-fd19-45e4-a4a8-b73545450234%22%2c%22Oid%22%3a%22e97e5c36-00f3-4763-b104-f3b0bc21c6b8%22%7d\" target=\"_blank\"><span style=\"font-size:10.5pt; font-family:&quot;Segoe UI Semibold&quot;,sans-serif; color:#6264A7\">Click here to join the meeting</span></a></span></p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\">Your digital well-being is our priority. Secure your virtual seat now by confirming your participation.</p><p>Thank you for considering our invitation. We're looking forward to your participation.<span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif\">\ud83d\ude0a</span></p><p><br>Best regards,<br><img border=\"0\" width=\"195\" height=\"46\" id=\"Picture_x0020_5\" src=\"cid:image002.png@01DA17A6.D5A85600\" alt=\"A close up of a logo\n\nDescription automatically generated\" style=\"width:2.0312in; height:.4791in\"></p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\">&nbsp;</p><div><p class=\"MsoNormal\" style=\"background:white\"><span style=\"font-size:12.0pt; color:black\">&nbsp;</span></p></div></div></body></html>"
             },
             "sender": {
                 "emailAddress": {
@@ -281,67 +51,6 @@
             "ccRecipients": [],
             "bccRecipients": [],
             "replyTo": [],
-            "flag": {
-                "flagStatus": "notFlagged"
-            }
-        },
-        {
-            "@odata.etag": "W/\"CQAAABYAAACF3Y3XOG24Q521TfBB7SXNAAJ+o+o2\"",
-            "id": "AAMkADU4OTdhYmMzLTYzZDctNDEyMy04MDJiLWYwMjRkYWU2Y2MxOQBGAAAAAACI2rGVF6-TQ7ynKK26KGxeBwCF3Y3XOG24Q521TfBB7SXNAAAAAAEMAACF3Y3XOG24Q521TfBB7SXNAAKAHdabAAA=",
-            "createdDateTime": "2023-11-14T06:38:34Z",
-            "lastModifiedDateTime": "2023-11-14T06:43:52Z",
-            "changeKey": "CQAAABYAAACF3Y3XOG24Q521TfBB7SXNAAJ+o+o2",
-            "categories": [],
-            "receivedDateTime": "2023-11-14T06:38:34Z",
-            "sentDateTime": "2023-11-14T06:38:25Z",
-            "hasAttachments": false,
-            "internetMessageId": "<982355d6-a3e2-4de1-bdba-06930492f311@bistec-aidevelopment.atlassian.net>",
-            "subject": "[JIRA] (BAD-3) Integrating chainlit chat bot to Email Analyser",
-            "bodyPreview": "You don't often get email from jira@bistec-aidevelopment.atlassian.net. Learn why this is important\r\n\r\nCAUTION: This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender.\r\n\r\nNilantha P",
-            "importance": "normal",
-            "parentFolderId": "AQMkADU4OTdhYmMzLTYzZDctNDEyMy04MDJiLWYwMjRkYWU2Y2MAMTkALgAAA4jasZUXr9NDvKcorboobF4BAIXdjdc4bbhDnbVN8EHtJc0AAAIBDAAAAA==",
-            "conversationId": "AAQkADU4OTdhYmMzLTYzZDctNDEyMy04MDJiLWYwMjRkYWU2Y2MxOQAQALYVkqs0KltPkmMwXX-bXpk=",
-            "conversationIndex": "AQHaFsUrthWSqzQqW0+SYzBdf9temQ==",
-            "isDeliveryReceiptRequested": null,
-            "isReadReceiptRequested": false,
-            "isRead": false,
-            "isDraft": false,
-            "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkADU4OTdhYmMzLTYzZDctNDEyMy04MDJiLWYwMjRkYWU2Y2MxOQBGAAAAAACI2rGVF6%2FTQ7ynKK26KGxeBwCF3Y3XOG24Q521TfBB7SXNAAAAAAEMAACF3Y3XOG24Q521TfBB7SXNAAKAHdabAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
-            "inferenceClassification": "focused",
-            "body": {
-                "contentType": "html",
-                "content": "<html lang=\"en\" style=\"font-family:Arial,sans-serif\"><head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><style type=\"text/css\">\r\n<!--\r\n@media only screen and (max-width: 700px) {\r\nspan.summary-text-part\r\n\t{display:block!important}\r\n.message-part-verb\r\n\t{display:none!important}\r\n.desktop-only\r\n\t{display:none!important}\r\n.mobile-only\r\n\t{display:block!important}\r\n\r\n\t}\r\n@media only screen and (min-width: 700px) {\r\nspan.ak-lozenge\r\n\t{margin-left:5px}\r\n.desktop-only\r\n\t{display:block!important}\r\n.mobile-only\r\n\t{display:none!important}\r\n\r\n\t}\r\n@media print {\r\ndiv.media-print-hidden\r\n\t{display:none}\r\n\r\n\t}\r\ndiv.issue-summary a:hover\r\n\t{color:#0065FF!important}\r\n.footer a:hover\r\n\t{color:#0065FF!important;\r\n\ttext-decoration:underline!important}\r\n.layout-simple-header a:hover\r\n\t{color:#0065FF!important}\r\n.layout-simple-header-with-breadcrumbs a:hover\r\n\t{color:#0065FF!important}\r\n.confluence-content-section a:hover\r\n\t{color:#0065FF!important;\r\n\ttext-decoration:underline!important}\r\n.confluence-header a:hover\r\n\t{color:#0065FF!important;\r\n\ttext-decoration:underline!important}\r\n-->\r\n</style></head><body bgcolor=\"#ffffff\" style=\"background-color:#ffffff; font-size:14px; font-style:normal; font-weight:400; color:#172b4d; letter-spacing:-0.15px; color:#333333; font-family:Arial,sans-serif; font-size:14px; line-height:1.4285715; background-color:#ffffff; color:#172b4d; letter-spacing:-0.15px\"><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" align=\"left\" style=\"border:0; display:table; width:100%; table-layout:fixed; border-collapse:seperate; float:none\"><tbody style=\"display:block\"><tr><td valign=\"middle\" width=\"1px\" bgcolor=\"#A6A6A6\" cellpadding=\"7px 2px 7px 2px\" style=\"padding:7px 2px 7px 2px; background-color:#A6A6A6\"></td><td valign=\"middle\" width=\"100%\" bgcolor=\"#EAEAEA\" cellpadding=\"7px 5px 7px 15px\" color=\"#212121\" style=\"width:100%; background-color:#EAEAEA; padding:7px 5px 7px 15px; font-family:wf_segoe-ui_normal,Segoe UI,Segoe WP,Tahoma,Arial,sans-serif; font-size:12px; font-weight:normal; color:#212121; text-align:left; word-wrap:break-word\"><div>You don't often get email from jira@bistec-aidevelopment.atlassian.net. <a href=\"https://aka.ms/LearnAboutSenderIdentification\">Learn why this is important</a></div></td><td valign=\"middle\" align=\"left\" width=\"75px\" bgcolor=\"#EAEAEA\" cellpadding=\"7px 5px 7px 5px\" color=\"#212121\" style=\"width:75px; background-color:#EAEAEA; padding:7px 5px 7px 5px; font-family:wf_segoe-ui_normal,Segoe UI,Segoe WP,Tahoma,Arial,sans-serif; font-size:12px; font-weight:normal; color:#212121; text-align:left; word-wrap:break-word\"></td></tr></tbody></table><div><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" align=\"left\" width=\"`&quot;100%`&quot;\"><tbody><tr><td style=\"background:#bba555; padding:5.25pt 5.5pt 5.25pt 1.5pt\"></td><td width=\"`&quot;100%`&quot;\" cellpadding=\"`&quot;7px\" color=\"`&quot;#212121`&quot;\" style=\"width:100.0%; background:#ffe599; padding:5.25pt \n3.75pt 5.25pt 11.25pt; word-wrap:break-word\"><div><p><span style=\"font-size:11pt; font-family:Arial,sans-serif; color:#212121\"><b>CAUTION:</b> This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender. </span></p></div></td></tr></tbody></table><div><div class=\"hidden\" style=\"display:none\"><span class=\"summary-text-part\">Nilantha Pushpakumara <b>made 1 update</b>.</span> <span>Bistec AI Development/BAD-3</span> <span>Integrating chainlit chat bot to Email Analyser</span> <span>&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c&nbsp;\u200c</span> </div><div class=\"outer-container\" style=\"width:100.0%; table-layout:fixed; max-width:1040px; margin:0 auto\"><table style=\"border-spacing:0; margin:0; border-collapse:collapse; width:100.0%; border-spacing:0; margin:0\"><tbody style=\"border-bottom:0\"><tr><td style=\"padding:0; padding:0\"><div class=\"overview-headline\" style=\"font-size:14px; margin-bottom:7px\"><span class=\"summary-text-part\" style=\"display:inline\">Nilantha Pushpakumara <b style=\"font-weight:600\">made 1 update</b>.</span> </div><table class=\"email-container\" style=\"border-spacing:0; margin:0; border-collapse:collapse; width:100.0%; border-spacing:0; margin:0; max-width:1040px; margin:0; border-collapse:separate\"><tbody style=\"border-bottom:0\"><tr><td class=\"email-container\" style=\"padding:0; padding:0; padding-top:12px; padding-bottom:12px; border-top:2px solid #dfe1e6; border-bottom:2px solid #dfe1e6\"><table class=\"event-group\" style=\"border-spacing:0; margin:0; border-collapse:collapse; width:100.0%; border-spacing:0; margin:0; margin:0 0 0 0\"><thead style=\"border-bottom:0\"><tr><td colspan=\"3\" style=\"padding:0; padding:0\"><div><div><div class=\"np-breadcrumbs\" style=\"color:#6b778c; font-weight:500; font-size:14px; line-height:20px; margin-bottom:6px\"><table class=\"breadcrumbs-table\" height=\"20\" style=\"border-spacing:0; margin:0; border-collapse:collapse; width:100.0%; border-spacing:0; margin:0; width:auto; border-spacing:0; height:20px\"><tbody style=\"border-bottom:0\"><tr><td style=\"padding:0; padding:0; white-space:nowrap; color:#6b778c\"><table style=\"border-spacing:0; margin:0; border-collapse:collapse; width:100.0%; border-spacing:0; margin:0\"><tbody style=\"border-bottom:0\"><tr><td style=\"padding:0; padding:0; white-space:nowrap; color:#6b778c\"><a class=\"ak-button ak-button__appearance-subtle-link subtle-link-height-override zero-padding\" href=\"https://bistec-aidevelopment.atlassian.net/browse/BAD?atlOrigin=eyJpIjoiOTEwNGI1ZDcyNWQ3NDAzZmFlODIxZDM3OGYzMTgzYTMiLCJwIjoiaiJ9\" style=\"color:#0052cc; text-decoration:none; align-items:baseline; box-sizing:border-box; border-radius:3px; border-width:0; display:inline-flex; font-style:normal; font-size:inherit; height:2.2857144em; line-height:2.2857144em; margin:0; outline:none; padding:0 12px; text-align:center; vertical-align:middle; white-space:nowrap; background:none; color:#42526e; text-decoration:none; padding:0px; color:#6b778c; height:auto; line-height:normal\">Bistec AI Development</a></td></tr></tbody></table></td><td style=\"padding:0; padding:0; white-space:nowrap; color:#6b778c\"><span class=\"np-breadcrumb-separator\" style=\"color:#6b778c\">&nbsp;&nbsp;/&nbsp;&nbsp;</span></td><td style=\"padding:0; padding:0; white-space:nowrap; color:#6b778c\"><table style=\"border-spacing:0; margin:0; border-collapse:collapse; width:100.0%; border-spacing:0; margin:0\"><tbody style=\"border-bottom:0\"><tr><td style=\"padding:0; padding:0; white-space:nowrap; color:#6b778c\"><a class=\"ak-button ak-button__appearance-subtle-link subtle-link-height-override zero-padding\" href=\"https://bistec-aidevelopment.atlassian.net/browse/BAD-3?atlOrigin=eyJpIjoiOTEwNGI1ZDcyNWQ3NDAzZmFlODIxZDM3OGYzMTgzYTMiLCJwIjoiaiJ9\" style=\"color:#0052cc; text-decoration:none; align-items:baseline; box-sizing:border-box; border-radius:3px; border-width:0; display:inline-flex; font-style:normal; font-size:inherit; height:2.2857144em; line-height:2.2857144em; margin:0; outline:none; padding:0 12px; text-align:center; vertical-align:middle; white-space:nowrap; background:none; color:#42526e; text-decoration:none; padding:0px; color:#6b778c; height:auto; line-height:normal\">BAD-3</a></td></tr></tbody></table></td></tr></tbody></table></div></div><div class=\"issue-summary\" style=\"font-size:20px; font-weight:normal; line-height:24px; margin:6px 0 0 0\"><a href=\"https://bistec-aidevelopment.atlassian.net/browse/BAD-3?atlOrigin=eyJpIjoiOTEwNGI1ZDcyNWQ3NDAzZmFlODIxZDM3OGYzMTgzYTMiLCJwIjoiaiJ9\" style=\"color:#0052cc; text-decoration:none; color:#0052cc\"><span>Integrating chainlit chat bot to Email Analyser</span> </a></div></div></td></tr></thead><tbody style=\"border-bottom:0\"></tbody><tbody style=\"border-bottom:0\"><tr class=\"message-part-header\"><td rowspan=\"2\" class=\"user-avatar\" width=\"40\" style=\"padding:0; padding:0; padding-top:14px; vertical-align:top; width:40px\"><img class=\"user-avatar\" src=\"https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f627d7dcc17bd006f16eaf4/764970b4-964f-4479-aa9a-a44b7c86fe44/128\" width=\"32\" height=\"32\" style=\"border:0; border:0; border-radius:50.0%; width:32px; height:32px\"></td><td colspan=\"2\" class=\"header\" style=\"padding:0; padding:0; padding-top:14px; padding-bottom:6px; line-height:20px; vertical-align:middle\"><span class=\"user-avatar-name\" style=\"color:#42526e; font-weight:500; display:inline-block; vertical-align:middle\">Nilantha Pushpakumara</span> <span style=\"color:#42526e; display:inline-block; vertical-align:middle\">12:05&nbsp;PM&nbsp;IST</span></td></tr><tr class=\"message-part-content\"><td class=\"label\" style=\"padding:0; padding:0; white-space:nowrap; width:1.0%; vertical-align:top; padding-right:5px; line-height:24px\">Status:</td><td class=\"user-content-narrow\" style=\"padding:0; padding:0; line-height:24px\"><span class=\"diff-old\" bgcolor=\"#ffebe6\" style=\"max-width:700px; height:auto; display:inline-block; padding:0 4px; background-color:#ffebe6; text-decoration:line-through\">To Do</span> <img class=\"ak-icon inline\" alt=\"\u2192\" id=\"logo\" src=\"cid:atl-generated-a670b16a-decf-4ab0-bcda-5c2871acfcd6\" height=\"16\" width=\"16\" style=\"border:0; height:24px; width:24px; border:0; max-width:700px; height:auto; height:16px; width:16px; vertical-align:middle\"> <span class=\"diff-new\" bgcolor=\"#e3fcef\" style=\"max-width:700px; height:auto; display:inline-block; padding:0 4px; background-color:#e3fcef\">In Progress</span></td></tr></tbody><tbody style=\"border-bottom:0\"><tr><td colspan=\"3\" height=\"12px\" style=\"padding:0; padding:0\">&nbsp;</td></tr><tr><td colspan=\"3\" style=\"padding:0; padding:0\"><div class=\"layout-action-button media-print-hidden\" style=\"margin:0 0 6px 0\"><table style=\"border-spacing:0; margin:0; border-collapse:collapse; width:100.0%; border-spacing:0; margin:0\"><tbody style=\"border-bottom:0\"><tr><td style=\"padding:0; padding:0\"><a class=\"ak-button ak-button__appearance-primary\" href=\"https://bistec-aidevelopment.atlassian.net/browse/BAD-3?atlOrigin=eyJpIjoiOTEwNGI1ZDcyNWQ3NDAzZmFlODIxZDM3OGYzMTgzYTMiLCJwIjoiaiJ9\" style=\"color:#0052cc; text-decoration:none; align-items:baseline; box-sizing:border-box; border-radius:3px; border-width:0; display:inline-flex; font-style:normal; font-size:inherit; height:2.2857144em; line-height:2.2857144em; margin:0; outline:none; padding:0 12px; text-align:center; vertical-align:middle; white-space:nowrap; background:#0052cc; color:#ffffff; text-decoration:none; font-size:14px; padding:0 38px\">View issue</a> </td></tr></tbody></table></div></td></tr></tbody></table></td></tr><tr><td class=\"footer-container\" style=\"padding:0; padding:0; padding-top:12px\"><table class=\"footer\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"border-spacing:0; margin:0; border-collapse:collapse; width:100.0%; border-spacing:0; margin:0\"><tbody style=\"border-bottom:0\"><tr><td style=\"padding:0; padding:0\"><table style=\"border-spacing:0; margin:0; border-collapse:collapse; width:100.0%; border-spacing:0; margin:0\"><tbody style=\"border-bottom:0\"><tr><td style=\"padding:0; padding:0\"><small style=\"color:#707070; font-size:12px; line-height:1.3333334; color:#707070; font-size:12px; font-weight:normal; line-height:17px\">Get Jira notifications on your phone! Download the Jira Cloud app for <a href=\"https://play.google.com/store/apps/details?id=com.atlassian.android.jira.core&amp;referrer=utm_source%3DNotificationLink%26utm_medium%3DEmail\" style=\"color:#0052cc; text-decoration:none\">Android</a> or <a href=\"https://itunes.apple.com/app/apple-store/id1006972087?pt=696495&amp;ct=EmailNotificationLink&amp;mt=8\" style=\"color:#0052cc; text-decoration:none\">iOS</a>.</small></td></tr><tr><td style=\"padding:0; padding:0\"><div class=\"footer-content-actions-spacing\" height=\"4\" style=\"line-height:4px; height:4px; font-size:1px\">&nbsp; </div></td></tr><tr><td class=\"footer-actions-line-height\" style=\"padding:0; padding:0; line-height:15px\"><small style=\"color:#707070; font-size:12px; line-height:1.3333334; color:#707070; font-size:12px; font-weight:normal; line-height:17px\"><a href=\"https://bistec-aidevelopment.atlassian.net/jira/settings/personal/notifications?emailPreferences=true&amp;atlOrigin=eyJpIjoiOTEwNGI1ZDcyNWQ3NDAzZmFlODIxZDM3OGYzMTgzYTMiLCJwIjoiaiJ9#emailpreferences\" style=\"color:#0052cc; text-decoration:none\">Manage notifications</a> </small><small style=\"color:#707070; font-size:12px; line-height:1.3333334; color:#707070; font-size:12px; font-weight:normal; line-height:17px\">&nbsp;\u2022&nbsp; </small><small style=\"color:#707070; font-size:12px; line-height:1.3333334; color:#707070; font-size:12px; font-weight:normal; line-height:17px\"><a href=\"https://surveys.atlassian.com/jfe/form/SV_9X3zi1X4q1gKsqF\" style=\"color:#0052cc; text-decoration:none\">Give feedback</a> </small><small style=\"color:#707070; font-size:12px; line-height:1.3333334; color:#707070; font-size:12px; font-weight:normal; line-height:17px\">&nbsp;\u2022&nbsp; </small><small style=\"color:#707070; font-size:12px; line-height:1.3333334; color:#707070; font-size:12px; font-weight:normal; line-height:17px\"><a href=\"https://www.atlassian.com/legal/privacy-policy\" style=\"color:#0052cc; text-decoration:none\">Privacy policy</a> </small></td></tr></tbody></table></td><td width=\"20\" class=\"desktop-only\" style=\"padding:0; padding:0; display:block\">&nbsp;</td><td class=\"right-align\" style=\"padding:0; padding:0; text-align:right\"><div class=\"desktop-only\" style=\"display:block\"><img class=\"jira-logo\" src=\"cid:atl-generated-f15b185a-9961-437b-8ee6-5d50534cf954\" height=\"32\" style=\"border:0; border:0; height:32px\"> </div></td></tr><tr><td style=\"padding:0; padding:0\"><div class=\"mobile-vertical-spacing mobile-only\" height=\"8\" style=\"display:none; line-height:8px; height:8px\">&nbsp; </div></td></tr><tr><td style=\"padding:0; padding:0\"><div class=\"mobile-only\" style=\"display:none\"><img class=\"jira-logo\" src=\"cid:atl-generated-f15b185a-9961-437b-8ee6-5d50534cf954\" height=\"32\" style=\"border:0; border:0; height:32px\"> </div></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></div><img border=\"0\" width=\"1\" height=\"1\" alt=\"\" src=\"https://atlas-trk.prd.msg.ss-inf.net/q/iEjNbrkAFGeZKDK20ixZwg~~/AAAAAQA~/RgRnNZrhPlcLYXRsYXNzaWFudXNCCmVB4RVTZeCDSlNSGmJoYXNoaXRoYUBiaXN0ZWNnbG9iYWwuY29tWAQAAAAA\"> </div></div></body></html>"
-            },
-            "sender": {
-                "emailAddress": {
-                    "name": "Nilantha Pushpakumara (Jira)",
-                    "address": "jira@bistec-aidevelopment.atlassian.net"
-                }
-            },
-            "from": {
-                "emailAddress": {
-                    "name": "Nilantha Pushpakumara (Jira)",
-                    "address": "jira@bistec-aidevelopment.atlassian.net"
-                }
-            },
-            "toRecipients": [
-                {
-                    "emailAddress": {
-                        "name": "Bhashitha Dhananjaya | BISTEC Global",
-                        "address": "bhashitha@bistecglobal.com"
-                    }
-                }
-            ],
-            "ccRecipients": [],
-            "bccRecipients": [],
-            "replyTo": [
-                {
-                    "emailAddress": {
-                        "name": "Nilantha Pushpakumara (Jira)",
-                        "address": "jira@bistec-aidevelopment.atlassian.net"
-                    }
-                }
-            ],
             "flag": {
                 "flagStatus": "notFlagged"
             }

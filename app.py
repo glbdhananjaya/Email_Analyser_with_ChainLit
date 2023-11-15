@@ -19,20 +19,19 @@ async def process_and_continue_chat(question=None):
 
     email_array = json.dumps(emails_json)
     prompt = (
-        f"Please categorize all the provided emails into three categories: 'urgent,' 'important,' and 'normal.' "
-        "For each email, provide the email subject, category, and sender. Additionally, after categorizing, provide "
-        "a brief response or action for each category: If the content of an email is null or empty, please categorize "
-        "it as 'Not Provided' For 'urgent' emails, specify the immediate action required. For 'important' emails, describe "
-        "the significance and the timely response expected. For 'normal' emails, mention any standard follow-up or handling "
-        "required. If an email doesn't fit into any of these categories, mark it as 'normal' and suggest the appropriate "
-        "response based on the content. Please assist the user knowledgeably to any question directed regarding the emails, please go through the emails. These are the emails list: {email_array}"
-    )
+    f"Please analyze the provided emails and categorize them into three groups: 'urgent,' 'important,' and 'normal.' "
+    "For each email, provide the subject, category, and sender. If the content is null or empty, categorize it as 'Not Provided.' "
+    "For 'urgent' emails, specify the immediate action required. For 'important' emails, describe their significance and the timely response expected. "
+    "For 'normal' emails, mention any standard follow-up or handling required. If an email doesn't fit these categories, mark it as 'normal' and suggest "
+    "the appropriate response based on the content. Additionally, assist the user with any questions about the emails. Please go through the following emails: {email_array}"
+)
+
 
     if question:
         prompt += f"\n{question}"
 
     
-    model = ChatOpenAI(streaming=True)
+    model = ChatOpenAI(streaming=True, model="gpt-3.5-turbo", temperature=0.8)
     prompt_template = ChatPromptTemplate.from_messages([("human", prompt)])
     runnable = prompt_template | model | StrOutputParser()
 
@@ -55,7 +54,7 @@ async def process_and_continue_chat(question=None):
 
 @cl.on_chat_start
 async def on_chat_start():
-    model = ChatOpenAI(streaming=True, model="gpt-3.5-turbo")
+    model = ChatOpenAI(streaming=True, model="gpt-3.5-turbo", temperature=0.8)
     prompt = ChatPromptTemplate.from_messages(
         [
             (
