@@ -9,30 +9,30 @@ import json
 import subprocess
 import os
 
-os.environ["OPENAI_API_KEY"] = "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"
+api_key = os.environ.get("OPENAI_API_KEY")
 
 async def process_and_continue_chat(question=None):
-    subprocess.run(["python", "getemails.py"])
+    # subprocess.run(["python", "getemails.py"])
 
     result = subprocess.check_output(["python", "getContents.py"])
     emails_json = json.loads(result.decode("utf-8"))
 
     email_array = json.dumps(emails_json)
     prompt = (
-        f"Please categorize all the provided emails into three categories: 'urgent,' 'important,' and 'normal.' "
-        "For each email, provide the email subject, category, and sender. Additionally, after categorizing, provide "
-        "a brief response or action for each category: If the content of an email is null or empty, please categorize "
-        "it as 'Not Provided' For 'urgent' emails, specify the immediate action required. For 'important' emails, describe "
-        "the significance and the timely response expected. For 'normal' emails, mention any standard follow-up or handling "
-        "required. If an email doesn't fit into any of these categories, mark it as 'normal' and suggest the appropriate "
-        "response based on the content. Please assist the user knowledgeably to any question directed regarding the emails, please go through the emails. These are the emails list: {email_array}"
-    )
+    f"Please analyze the provided emails and categorize them into three groups: 'urgent,' 'important,' and 'normal.' "
+    "For each email, provide the subject, category, and sender. If the content is null or empty, categorize it as 'Not Provided.' "
+    "Using the emails provided within curly brackets like this: {{Email}}, generate informative content. Each set of curly brackets contains an email message"
+    "For 'urgent' emails, specify the immediate action required. For 'important' emails, describe their significance and the timely response expected. "
+    "For 'normal' emails, mention any standard follow-up or handling required. If an email doesn't fit these categories, mark it as 'normal' and suggest "
+    "the appropriate response based on the content. Additionally, assist the user with any questions about the emails. Please go through the following emails: {email_array}"
+)
+
 
     if question:
         prompt += f"\n{question}"
 
     
-    model = ChatOpenAI(streaming=True)
+    model = ChatOpenAI(streaming=True, model="gpt-3.5-turbo", temperature=0.8)
     prompt_template = ChatPromptTemplate.from_messages([("human", prompt)])
     runnable = prompt_template | model | StrOutputParser()
 
@@ -41,7 +41,7 @@ async def process_and_continue_chat(question=None):
     suggestions = []
 
     async for chunk in runnable.astream({"email_array": email_array}, config=RunnableConfig(callbacks=[cl.LangchainCallbackHandler()])):
-        if "suggestion" in chunk:  # Check for suggestion output
+        if "suggestion" in chunk:
             suggestions.append(chunk["suggestion"])
         await msg.stream_token(chunk)
 
@@ -55,7 +55,7 @@ async def process_and_continue_chat(question=None):
 
 @cl.on_chat_start
 async def on_chat_start():
-    model = ChatOpenAI(streaming=True, model="gpt-3.5-turbo")
+    model = ChatOpenAI(streaming=True, model="gpt-3.5-turbo", temperature=0.8)
     prompt = ChatPromptTemplate.from_messages(
         [
             (
