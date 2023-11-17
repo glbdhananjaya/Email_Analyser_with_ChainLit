@@ -9,6 +9,7 @@ import json
 import subprocess
 import os
 
+api_key = os.environ.get("OPENAI_API_KEY")
 
 async def process_and_continue_chat(question=None):
     # subprocess.run(["python", "getemails.py"])
