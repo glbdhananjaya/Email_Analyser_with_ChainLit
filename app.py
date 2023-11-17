@@ -9,10 +9,9 @@ import json
 import subprocess
 import os
 
-os.environ["OPENAI_API_KEY"] = "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"
 
 async def process_and_continue_chat(question=None):
-    subprocess.run(["python", "getemails.py"])
+    # subprocess.run(["python", "getemails.py"])
 
     result = subprocess.check_output(["python", "getContents.py"])
     emails_json = json.loads(result.decode("utf-8"))
@@ -21,6 +20,7 @@ async def process_and_continue_chat(question=None):
     prompt = (
     f"Please analyze the provided emails and categorize them into three groups: 'urgent,' 'important,' and 'normal.' "
     "For each email, provide the subject, category, and sender. If the content is null or empty, categorize it as 'Not Provided.' "
+    "Using the emails provided within curly brackets like this: {{Email}}, generate informative content. Each set of curly brackets contains an email message"
     "For 'urgent' emails, specify the immediate action required. For 'important' emails, describe their significance and the timely response expected. "
     "For 'normal' emails, mention any standard follow-up or handling required. If an email doesn't fit these categories, mark it as 'normal' and suggest "
     "the appropriate response based on the content. Additionally, assist the user with any questions about the emails. Please go through the following emails: {email_array}"
