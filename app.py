@@ -12,7 +12,7 @@ import os
 api_key = os.environ.get("OPENAI_API_KEY")
 
 async def process_and_continue_chat(question=None):
-    # subprocess.run(["python", "getemails.py"])
+    subprocess.run(["python", "getemails.py"])
 
     result = subprocess.check_output(["python", "getContents.py"])
     emails_json = json.loads(result.decode("utf-8"))
@@ -32,7 +32,7 @@ async def process_and_continue_chat(question=None):
         prompt += f"\n{question}"
 
     
-    model = ChatOpenAI(streaming=True, model="gpt-3.5-turbo", temperature=0.8)
+    model = ChatOpenAI(streaming=True, model="gpt-4-1106-preview", temperature=0.8)
     prompt_template = ChatPromptTemplate.from_messages([("human", prompt)])
     runnable = prompt_template | model | StrOutputParser()
 
@@ -55,7 +55,7 @@ async def process_and_continue_chat(question=None):
 
 @cl.on_chat_start
 async def on_chat_start():
-    model = ChatOpenAI(streaming=True, model="gpt-3.5-turbo", temperature=0.8)
+    model = ChatOpenAI(streaming=True, model="gpt-4-1106-preview", temperature=0.8)
     prompt = ChatPromptTemplate.from_messages(
         [
             (
