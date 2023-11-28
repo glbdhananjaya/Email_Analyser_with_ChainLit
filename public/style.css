@@ -2,17 +2,6 @@
     --sender-bg-color: #E0F4FF;
     --chatbot-bg-color: #F2F2F2;
 }
-.MuiBox-root.css-1vb1eow {
-    box-sizing: border-box;
-    /* margin-left: auto; */
-    margin-right: auto;
-    max-width: 60rem;
-    padding-left: 16px;
-    padding-right: 16px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-}
 .message.MuiBox-root.css-1s3oi5q {
     color: rgb(33, 33, 33);
     margin-bottom: 10px;
