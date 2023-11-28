@@ -29,7 +29,7 @@ multi_modal = true
 
 [UI]
 # Name of the app and chatbot.
-name = "Chatbot"
+name = "MailMindAnalyzer"
 
 # Show the readme while the conversation is empty.
 show_readme_as_default = true
@@ -51,17 +51,17 @@ hide_cot = false
 
 # Specify a CSS file that can be used to customize the user interface.
 # The CSS file can be served from the public directory or via an external link.
-# custom_css = "/public/test.css"
+custom_css = "/public/style.css"
 
 # Override default MUI light theme. (Check theme.ts)
 [UI.theme.light]
-    #background = "#FAFAFA"
-    #paper = "#FFFFFF"
+    background = "#FFFFFF"
+    paper = "#FFFFFF"
 
     [UI.theme.light.primary]
-        #main = "#F80061"
-        #dark = "#980039"
-        #light = "#FFE7EB"
+        main = "#2E62A3"
+        dark = "#2E62A3"
+        light = "#DCDCDC"
 
 # Override default MUI dark theme. (Check theme.ts)
 [UI.theme.dark]
@@ -69,9 +69,9 @@ hide_cot = false
     #paper = "#FFFFFF"
 
     [UI.theme.dark.primary]
-        #main = "#F80061"
-        #dark = "#980039"
-        #light = "#FFE7EB"
+        main = "#2E62A3"
+        dark = "#980039"
+        light = "#FFE7EB"
 
 
 [meta]

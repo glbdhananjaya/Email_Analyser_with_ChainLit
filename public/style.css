@@ -1,0 +1,32 @@
+:root {
+    --sender-bg-color: #E0F4FF;
+    --chatbot-bg-color: #F2F2F2;
+}
+.message.MuiBox-root.css-1s3oi5q {
+    color: rgb(33, 33, 33);
+    margin-bottom: 10px;
+    margin-left: 200px;
+    margin-right: 30px;
+    color: rgb(33, 33, 33);
+    background-color: var(--sender-bg-color);
+    border-radius: 10px;
+}
+.message.MuiBox-root.css-19mvntf {
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 200px;
+    color: rgb(33, 33, 33);
+    background-color: var(--chatbot-bg-color);
+    border-radius: 10px;
+}
+
+/* dark_theme */
+
+.css-1e7z9eq {
+    color: rgb(238, 238, 238);
+    background-color: transparent;
+}
+.css-1e7z9eq {
+    color: rgb(238, 238, 238);
+    background-color: transparent;
+}
