@@ -3,15 +3,49 @@ from langchain.prompts import ChatPromptTemplate
 from langchain.schema import StrOutputParser
 from langchain.schema.runnable import Runnable
 from langchain.schema.runnable.config import RunnableConfig
+from msal import ConfidentialClientApplication
 
 import chainlit as cl
 import json
 import subprocess
 import os
+from typing import Dict, Optional
+import webbrowser
+import json
 
 api_key = os.environ.get("OPENAI_API_KEY")
 
+with open('config.json', 'r') as config_file:
+    config = json.load(config_file)
+
+client_id = config['client_id']
+client_secret = config['client_secret']
+redirect_uri = config['redirect_uri']
+tenant_id = config['tenant_id']
+SCOPES = ['User.Read']
+
+client = ConfidentialClientApplication(client_id=client_id, client_credential=client_secret)
+authorization_url = client.get_authorization_request_url(SCOPES, redirect_uri=redirect_uri)
+webbrowser.open(authorization_url)
+
+@cl.oauth_callback
+def oauth_callback(
+        provider_id: str,
+        token: str,
+        raw_user_data: Dict[str, str],
+        default_app_user: cl.AppUser,
+) -> Optional[cl.AppUser]:
+    with open('config.json', 'w') as config_file:
+        config = {
+            "OAuth_access_token": token,
+        }
+        json.dump(config, config_file, indent=4)
+
+    print("OAuth callback executed successfully.")
+    return default_app_user
+
 async def process_and_continue_chat(question=None):
+    # subprocess.run(["python", "getToken.py"])
     subprocess.run(["python", "getemails.py"])
 
     result = subprocess.check_output(["python", "getContents.py"])
@@ -55,6 +89,8 @@ async def process_and_continue_chat(question=None):
 
 @cl.on_chat_start
 async def on_chat_start():
+    app_user = cl.user_session.get("user")
+    await cl.Message(f"Hello {app_user.username}").send()
     model = ChatOpenAI(streaming=True, model="gpt-4-1106-preview", temperature=0.8)
     prompt = ChatPromptTemplate.from_messages(
         [
